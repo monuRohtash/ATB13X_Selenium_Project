@@ -8,7 +8,9 @@ import org.testng.annotations.Test;
 public class TestSelenium07_Selenium_Commands {
 
 
-    public static void main(String[] args) {
+//    public static void main(String[] args) {
+    @Test
+    public void test23() {
 
 
         WebDriver driver = new FirefoxDriver();
