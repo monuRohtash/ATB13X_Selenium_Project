@@ -1,5 +1,6 @@
 package org.example.ex02_Selenium_Basics;
 
+import io.qameta.allure.Description;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -10,7 +11,7 @@ import org.testng.annotations.Test;
 public class Test_Selenium_003 {
 
 
-
+    @Description("browser test report allure ")
     @Test
     public void Browser_Test(){
         // Start Firefox browser

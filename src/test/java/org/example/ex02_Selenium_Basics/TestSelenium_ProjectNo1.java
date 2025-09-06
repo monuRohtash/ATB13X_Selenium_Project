@@ -9,6 +9,7 @@ import org.testng.Assert;
 import org.testng.annotations.*;
 
 import java.util.Objects;
+import java.util.Objects;
 
 public class TestSelenium_ProjectNo1 {
 
@@ -27,11 +28,12 @@ public class TestSelenium_ProjectNo1 {
 
         System.out.println(driver.getPageSource());
 
-        if(Objects.requireNonNull(driver.getPageSource()).contains("CURA Healthcare Service")){
-            System.out.println("Test Case passed!");
+
+        if (Objects.requireNonNull(driver.getPageSource()).contains("CURA Healthcare Service")){
+            System.out.println("Test cass pass!");
             Assert.assertTrue(true);
         }else{
-            System.out.println("Test Case failed!");
+            System.out.println("Test Case Failed!");
             Assert.fail();
         }
 
