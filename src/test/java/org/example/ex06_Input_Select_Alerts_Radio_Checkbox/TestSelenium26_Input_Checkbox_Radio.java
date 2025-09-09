@@ -46,15 +46,6 @@ public class TestSelenium26_Input_Checkbox_Radio {
         WebElement Automation_Tools = driver.findElement(By.id("tool-2"));
         Automation_Tools.click();
 
-
-
-
-
-
-
-
-
-
         try {
             Thread.sleep(5000);
         } catch (InterruptedException e) {
