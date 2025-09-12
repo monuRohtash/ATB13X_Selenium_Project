@@ -2,6 +2,7 @@ package org.example.ex09_Action_class;
 
 import org.example.ex07_WaitHelper.WaitHelpers;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -18,6 +19,12 @@ public class Lab32_Action_Class {
     public static void main(String[] args) throws InterruptedException {
 
         WebDriver driver = new ChromeDriver();
+
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        //👉 Driver को JavaScriptExecutor में Cast किया जाता है ताकि हम JS commands चला सकें।
+
+        js.executeScript("window.location = 'https://www.google.com'");
+        //👉 JavaScript के ज़रिए Browser को Google.com पर Redirect करता है।
         driver.get("https://www.spicejet.com/");
         driver.manage().window().maximize();
 
