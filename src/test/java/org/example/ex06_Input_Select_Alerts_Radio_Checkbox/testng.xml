@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/home/raghav/IdeaProjects/ATB13X_Selenium_Project/src/test/java/org/example/ex06_Input_Select_Alerts_Radio_Checkbox">
+        <classes>
+            <class name="org.example.ex06_Input_Select_Alerts_Radio_Checkbox.TestSelenium28_Alerts_Handling_JS_Alert_p1">
+                <methods>
+                    <include name="test_alert"/>
+                </methods>
+            </class>
+            <class name="org.example.ex06_Input_Select_Alerts_Radio_Checkbox.TestSelenium28_Alerts_Handling_JS_Confirm_p2">
+                <methods>
+                    <include name="test_alert"/>
+                </methods>
+            </class>
+            <class name="org.example.ex06_Input_Select_Alerts_Radio_Checkbox.TestSelenium28_Alerts_Handling_JS_Prompt_p3">
+                <methods>
+                    <include name="test_alert"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
