@@ -1,6 +1,5 @@
-package org.example.ex017_DataDrivenTestWith_OHRM;
+package org.example.ex018DataDrivenTestWith_OHRM;
 
-import org.assertj.core.condition.Negative;
 import org.example.utils.UtilExcel;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -12,7 +11,6 @@ import org.testng.Assert;
 import org.testng.annotations.*;
 
 import java.time.Duration;
-import java.time.Period;
 
 public class Lab_50_DDT_TestNG_OHRM_ {
 
