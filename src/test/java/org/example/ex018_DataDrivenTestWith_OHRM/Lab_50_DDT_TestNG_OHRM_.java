@@ -1,4 +1,4 @@
-package org.example.ex018DataDrivenTestWith_OHRM;
+package org.example.ex018_DataDrivenTestWith_OHRM;
 
 import org.example.utils.UtilExcel;
 import org.openqa.selenium.By;
