@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class Lab50_DDT_TestNG_POI_REAL {
+public class Lab50_DDT_TestNG_POI_REAL_Vwo {
 
     @Test(dataProvider = "getData")
     public void test_vwo_login(String email, String password) {
